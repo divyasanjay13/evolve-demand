@@ -1,0 +1,709 @@
+ @media (min-width: 1400px) {
+
+     .container,
+     .container-lg,
+     .container-md,
+     .container-sm,
+     .container-xl,
+     .container-xxl {
+         max-width: 1120px;
+     }
+ }
+
+ /* ─── RESPONSIVE ─────────────────────────────── */
+
+ @media (max-width:1299px) {
+     .hero-title {
+         font-size: 74px;
+         line-height: 90px;
+     }
+
+     .hero-sub {
+         font-size: 24px;
+         line-height: 40px;
+     }
+
+   .hero-content-wrap {
+    padding: 210px 20px 221px;
+}
+
+     .btn-talk {
+         margin-bottom: 20px;
+     }
+
+         .section-pill {
+        font-size: 34px;
+        line-height: 38px;
+    }
+
+     .section-sub {
+         font-size: 20px;
+        line-height: 30px;
+        margin: 0;
+     }
+
+     .service-card h5 {
+         font-size: 24px;
+     }
+
+     .result-card {
+         padding: 24px;
+     }
+
+
+     .result-stat {
+         font-size: 50px;
+         line-height: 30px;
+         margin: 16px 0px;
+     }
+
+     .result-stat .arrow svg {
+         width: 35px;
+     }
+
+        .result-label {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+     .result-desc {
+         padding: 8px 0;
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     .btn-learn {
+         font-size: 16px;
+         padding: 10px 20px;
+         margin-top: 0;
+     }
+
+     .inner-bg {
+         padding: 39px 13px 30px 0px;
+     }
+
+     .diff-right h2 {
+         font-size: 26px;
+         line-height: 50px;
+     }
+
+     .diff-right .diff-subtitle {
+         font-size: 16px;
+         line-height: 26px;
+     }
+
+     .diff-right .diff-subtitle strong {
+         font-weight: 600;
+         font-size: 24px;
+     }
+
+     .diff-item h6 {
+         font-size: 24px;
+         line-height: 30px;
+     }
+
+     .diff-item p {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     .diff-left img {
+         height: 750px;
+     }
+
+
+ }
+
+ @media (max-width:1199px) {
+     .navbar-brand.brand-custom img {
+         width: 290px;
+     }
+
+     .nav-links-desktop li a {
+         font-size: 16px;
+     }
+
+     .btn-apply {
+         font-size: 16px;
+     }
+
+     .global-section p {
+         font-size: 18px;
+         line-height: 30px;
+     }
+
+     .global-section h2 {
+         font-size: 34px;
+     }
+
+     .global-section {
+         padding: 60px 0px;
+         height: 452px;
+     }
+
+     .video-thumb {
+         height: 386px;
+     }
+
+     .global-stats-sec {
+         padding-top: 200px;
+     }
+
+     .stat-num {
+         font-size: 44px;
+         line-height: 33px;
+     }
+
+     .stat-label {
+         font-size: 18px;
+     }
+
+     .stat-desc {
+         line-height: 24px;
+         padding-top: 16px;
+         margin-top: 8px;
+         font-size: 16px;
+     }
+
+     .diff-left img {
+         height: 800px;
+     }
+ }
+
+ @media (max-width: 991px) {
+
+     .nav-links-desktop,
+     .btn-apply.desktop-only {
+         display: none !important;
+     }
+
+     .hero-title {
+         font-size: 54px;
+         line-height: 70px;
+     }
+
+     .hero-sub {
+         font-size: 20px;
+         line-height: 32px;
+         margin-bottom: 26px;
+         margin-top: 0;
+     }
+
+     .btn-talk {
+         margin-bottom: 50px;
+     }
+
+    .hero-content-wrap {
+    padding: 210px 20px 171px;
+}
+
+     #mainNav {
+         padding-top: 53px;
+     }
+
+     .hero-grid {
+         top: 0;
+     }
+     .partner-shape-section{
+        padding-top: 20px;
+     }
+
+     .section-pill {
+         padding: 8px 24px;
+         font-size: 35px;
+     }
+
+     .section-sub {
+         font-size: 20px;
+     }
+
+     .service-card h5 {
+         font-size: 20px;
+     }
+
+     .diff-left img {
+         width: 100%;
+         height: 305px;
+         object-position: center;
+     }
+
+     .diff-outer-card {
+         flex-direction: column;
+     }
+
+     .diff-left {
+         min-height: 260px;
+         flex: none;
+         width: 100%;
+         border-radius: 30px 30px 0 0;
+     }
+
+     .diff-right {
+         padding-top: 0;
+         padding-right: 0;
+     }
+
+     .different-section {
+         padding: 60px 0;
+         padding-bottom: 0;
+     }
+
+     .cta-banner {
+         padding: 40px 0px;
+     }
+
+     .inner-bg {
+         border-top-right-radius: 0;
+         padding-top: 24px;
+         padding-bottom: 28px;
+         border-bottom-left-radius: 30px;
+         border-bottom-right-radius: 30px;
+     }
+
+     .diff-right h2 {
+         font-size: 30px;
+     }
+
+     .diff-right .diff-subtitle {
+         font-size: 18px;
+         line-height: 28px;
+     }
+
+     .diff-right .diff-subtitle strong {
+         font-size: 24px;
+     }
+
+     .diff-item h6 {
+         font-size: 22px;
+         line-height: 32px;
+     }
+
+     .diff-item p {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+
+     .nav-toggler {
+         display: flex !important;
+     }
+
+     .below-inner {
+         flex-direction: column;
+         gap: 10px;
+     }
+
+     .stat-col {
+         min-width: 100%;
+     }
+
+     .watermark-text img {
+         max-width: 100%;
+     }
+.inner-bg::before{
+    display: none;
+}
+     /* footer::after {
+         bottom: 0;
+         top: auto;
+         right: 0;
+         z-index: 0;
+     } */
+ }
+
+ /* ─── Responsive tweaks ─── */
+ @media (max-width: 768px) {
+     .hero {
+         padding: 60px 0 50px;
+     }
+
+     #mainNav {
+         padding-top: 30px;
+     }
+.hero-content-wrap {
+    padding-top: 140px;
+    padding-bottom: 139px;
+}
+
+     .hero-grid {
+         top: 0px;
+     }
+
+     .hero-title {
+         font-size: 35px;
+         line-height: 130%;
+         letter-spacing: -0.1px;
+     }
+
+     .hero-sub {
+         font-size: 18px;
+         line-height: 130%;
+     }
+
+     .stat-heading {
+         font-size: 36px;
+         max-width: 600px;
+         line-height: 130%;
+     }
+
+       .partner-shape-section{
+        padding-top: 0px;
+     }
+
+     .btn-talk .text {
+         padding: 13px 20px;
+     }
+
+     .btn-talk {
+         font-size: 14px;
+         margin-bottom: 60px;
+     }
+
+     .btn-talk .talk-arrow {
+         width: 40px;
+         height: 40px;
+     }
+
+     .brand-row img {
+         max-height: 45px;
+     }
+
+     .brand-section {
+         padding: 0;
+     }
+
+     .services-section {
+         padding-top: 40px;
+         padding-bottom: 60px;
+     }
+
+     .section-pill {
+         font-size: 24px;
+         padding: 3px 20px;
+     }
+
+     .section-sub {
+         font-size: 18px;
+         margin-top: 10px;
+         margin-bottom: 0;
+         line-height: 130%;
+     }
+
+     .service-card {
+         padding: 20px;
+     }
+
+     .service-card h5 {
+         font-size: 20px;
+     }
+
+     .service-card p {
+         font-size: 14px;
+     }
+
+     .btn-outline-dark-pill {
+         font-size: 14px;
+     }
+
+     .result-card {
+         padding: 24px 24px;
+     }
+
+     .case-badge {
+         font-size: 14px;
+     }
+
+     .result-stat {
+         font-size: 55px;
+         gap: 13px;
+         margin: 4px 0px;
+     }
+
+     .result-stat .arrow svg {
+         width: 35px;
+     }
+
+     .result-label {
+         font-size: 18px;
+         margin-bottom: 0;
+         margin-top: 8px;
+     }
+
+     .result-desc {
+         font-size: 16px;
+         line-height: 25px;
+         padding: 17px;
+     }
+
+     .btn-learn {
+         padding: 10px 20px;
+         font-size: 14px;
+         margin-top: 0px;
+     }
+
+     .diff-right h2 {
+         font-size: 24px;
+         line-height: 43px;
+     }
+
+     .diff-right .diff-subtitle {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     .diff-right .diff-subtitle strong {
+         font-size: 20px;
+     }
+
+     .diff-item h6 {
+         font-size: 20px;
+         line-height: 24px;
+     }
+
+     .diff-item p {
+         font-size: 14px;
+         line-height: 22px;
+     }
+
+     .inner-bg {
+         padding-bottom: 24px;
+     }
+
+     .cta-banner {
+         padding: 20px 0px;
+         padding-bottom: 40px;
+     }
+
+     .video-thumb {
+         max-width: 992px;
+         height: 316px;
+     }
+
+     .global-section h2 {
+         font-size: 24px;
+         line-height: 34px;
+     }
+
+     .global-section {
+         padding: 40px 0px;
+         height: 382px;
+     }
+
+     .results-section {
+         padding: 40px 0px;
+         padding-top: 0;
+     }
+
+     .global-section p {
+         font-size: 16px;
+         line-height: 28px;
+     }
+
+     .play-circle {
+         width: 50px;
+         height: 50px;
+     }
+
+     .global-stats-sec {
+         padding-top: 180px;
+     }
+
+     .stat-num {
+         font-size: 42px;
+     }
+
+     .stat-label {
+         font-size: 18px;
+         line-height: 20px;
+     }
+
+     .stat-desc {
+         font-size: 16px;
+         line-height: 25px;
+         padding-top: 16px;
+         margin-top: 12px;
+     }
+
+     .partners-section .row>div+div {
+         margin-top: 24px;
+     }
+
+
+
+     .cta-box {
+         margin-bottom: 16px;
+         padding: 20px;
+     }
+
+     .cta-box h2 {
+         font-size: 20px;
+     }
+
+     .para-footer {
+         font-size: 16px;
+         margin-top: 6px;
+     }
+
+     .input-wrapper {
+         max-width: 100%;
+     }
+
+     .footer-heading {
+         font-size: 20px;
+     }
+
+     .signup-btn {
+         font-size: 14px;
+     }
+
+     footer input {
+         font-size: 14px;
+     }
+
+     .brand-row {
+         justify-content: center;
+     }
+
+     footer img {
+         width: 280px;
+         margin-bottom: 30px;
+     }
+
+     footer p {
+         font-size: 16px !important;
+     }
+
+     .social-links {
+         margin-top: 8px;
+     }
+
+     .bg-blue-footer {
+         padding: 20px;
+     }
+
+ }
+
+
+ /* Small screens */
+ @media (max-width: 575px) {
+     .hero-title {
+         letter-spacing: -1px;
+         font-size: 28px;
+         line-height: 138%;
+     }
+
+     .navbar-brand.brand-custom img {
+         max-width: 100%;
+         width: 220px;
+     }
+
+     #mainNav {
+         padding-top: 30px;
+     }
+
+     .hero-content-wrap {
+         padding: 110px 20px 199px;
+     }
+
+     .hero-sub {
+         font-size: 16px;
+         line-height: 140%;
+         margin-top: 0px;
+         margin-bottom: 35px;
+     }
+
+     .btn-talk .text {
+         padding: 13px 20px;
+     }
+
+     .btn-talk {
+         font-size: 14px;
+         margin-bottom: 60px;
+     }
+
+     .btn-talk .talk-arrow {
+         width: 40px;
+         height: 40px;
+     }
+
+     .hero-blob-2 {
+         height: 400px;
+     }
+
+     .stat-heading {
+         font-size: 30px;
+         line-height: 140%;
+     }
+
+     .text-col p {
+         font-size: 14px;
+         line-height: 180%;
+     }
+
+     .stat-divider {
+         margin: 20px auto;
+     }
+
+     .watermark-text {
+         left: -10px;
+         top: -15px;
+     }
+
+     .brand-row img {
+         max-height: 30px;
+     }
+
+     .input-wrapper {
+         /* flex-direction: column; */
+         align-items: stretch;
+         gap: 12px;
+     }
+     .para-footer{
+        line-height: 24px;
+     }
+
+     .signup-btn {
+         justify-content: flex-end;
+     }
+
+     .result-desc {
+         font-size: 14px;
+         line-height: 20px;
+         padding: 12px;
+     }
+
+     .result-label {
+         font-size: 16px;
+     }
+
+     .result-stat {
+         font-size: 48px;
+     }
+
+     .result-stat .arrow svg {
+         width: 30px;
+     }
+
+     .section-sub {
+         font-size: 16px;
+         margin-top: 0px;
+     }
+
+     .section-pill {
+         font-size: 20px;
+         padding: 3px 10px;
+         line-height: 34px;
+     }
+
+     .services-section {
+         padding-bottom: 40px;
+     }
+
+     .global-section h2 {
+         font-size: 22px;
+     }
+
+     .global-section p {
+         line-height: 24px;
+     }
+ }
